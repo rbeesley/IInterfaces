@@ -23,8 +23,8 @@ original article pages and download archives are no longer available.
   - `IComparable<Fruit>` implementation on `Fruit`
   - `IComparer<Fruit>` implementations for alternative sort orders
 - `docs/` - Markdown reconstructions of the original articles:
-  - `IInterfaces-Part1.md` ([link - Part 1](docs\IInterfaces-Part1.md))
-  - `IInterfaces-Part2.md` ([link - Part 2](docs\IInterfaces-Part2.md))
+  - `IInterfaces-Part1.md`
+  - `IInterfaces-Part2.md`
 
 Each Markdown article starts with a **Recreation note** that explains
 the origin of the content and provides the original CodeProject URL for
@@ -59,3 +59,12 @@ cd IInterfaces
 dotnet build
 dotnet run --project src/IInterfaces.Demo/IInterfaces.Demo.csproj
 ```
+
+## License
+
+This project is licensed under **The Code Project Open License (CPOL) 1.02**,
+the same license that applied to the original CodeProject articles and their
+download archives.
+
+See the [`LICENSE`](./LICENSE) file in this repository for the full text of
+the CPOL 1.02 license.
